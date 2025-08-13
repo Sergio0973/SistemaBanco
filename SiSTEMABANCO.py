@@ -121,3 +121,4 @@ def agregarHistorial(numeroCuenta, idProducto, valor, tipoMovimiento):
     else:
         print("No se pudo registrar el historial: cuenta o producto no encontrado.")
 
+
