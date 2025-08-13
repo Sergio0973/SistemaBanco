@@ -9,7 +9,7 @@ cancelacion de productos financieros y la redención de CDT.
 El sistema guarda la informacion en memoria mediante diccionarios y gestiona 
 el historial de movimientos por producto
 
-## Descripcion: 
+## 📌 Descripción: 
 El programa simula un sistema bancario donde el usuario puede:
 
 - Crear cuentas y asignar productos (ahorros, corriente, CDT, Creditos).
@@ -22,12 +22,12 @@ El programa simula un sistema bancario donde el usuario puede:
 Toda la informacion se gestiona en memoria y se presenta en la consola, usand menus interactivos
 
 
-## Stack Tecnologico
+## 🛠 Stack Tecnologico
 -**Lenguaje:** Python 3
 
 -**Entorno de Desarrollo:** Consola/Terminal
 
-## Requerimientos
+## ⚙️ Requerimientos
 
 Para ejecutar el proyecto es necesario contar con: 
 
@@ -35,7 +35,7 @@ Para ejecutar el proyecto es necesario contar con:
 
 -Tener instaladas las dependencias indicadas en el bash
 
-## Librerias Externas
+## 📂 Librerias Externas
 
 -**Las librerias  utilizadas**:
   - 'os' -> Control de limpieza de pantalla
@@ -43,6 +43,16 @@ Para ejecutar el proyecto es necesario contar con:
   - 'time' -> Registro de fechas y pausas simuladas
   - 'colorama' -> formateo de texto con colores en consola
 
+## 📂 Estructura de Archivos
 
+```
+proyecto-banco
+├── README.md          # Documentación del proyecto
+└── SiSTEMABANCO.py    # Código principal que contiene toda la lógica del sistema
+```
+    
+ 
+
+   
 
 
