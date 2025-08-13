@@ -38,7 +38,7 @@ Para ejecutar el proyecto es necesario contar con:
 ## 📂 Librerias Externas
 
 -**Las librerias  utilizadas**:
-  - 'os' -> Control de limpieza de pantalla
+  - 'os' -> Control de limpieza de pantalla.
   - 'random' -> Generacion de números aleatorios para IDs de cuentas y productos
   - 'time' -> Registro de fechas y pausas simuladas
   - 'colorama' -> formateo de texto con colores en consola
