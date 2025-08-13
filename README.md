@@ -24,6 +24,7 @@ Toda la informacion se gestiona en memoria y se presenta en la consola, usand me
 
 ## Stack Tecnologico
 -**Lenguaje:** Python 3
+
 -**Entorno de Desarrollo:** Consola/Terminal
 
 
