@@ -106,3 +106,18 @@ def menuCreditos():
 def menuPortafolio():
     print('1. Cta Ahorros \n2. Cta Corriente \n3. CDT \n4. Credito Libre Inversion \n5. Credito Vivienda \n6. Credito Compra AutoMovil \n0. Salir')
 
+#Manejo del Historial
+def agregarHistorial(numeroCuenta, idProducto, valor, tipoMovimiento):
+    """Registra un movimiento en el historial de un producto."""
+    if numeroCuenta in cuentasBancarias and idProducto in cuentasBancarias[numeroCuenta]["Productos"]:
+        historial = cuentasBancarias[numeroCuenta]["Productos"][idProducto]["Historial"]
+
+        nuevo_id = len(historial) + 1  # ID incremental
+        historial[nuevo_id] = {
+            "FechaMovimiento": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "Valor": valor,
+            "TipoMovimiento": tipoMovimiento
+        }
+    else:
+        print("No se pudo registrar el historial: cuenta o producto no encontrado.")
+
