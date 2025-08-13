@@ -19,7 +19,7 @@ El programa simula un sistema bancario donde el usuario puede:
 - Cancelar productos
 - Redimir CDT calculando los intereses generados
 
-Toda la informacion se gestiona en memoria y se presenta en la consola, usand menus interactivos
+Toda la informacion se gestiona en memoria y se presenta en la consola, usando menus interactivos
 
 
 ## 🛠 Stack Tecnologico
@@ -31,7 +31,7 @@ Toda la informacion se gestiona en memoria y se presenta en la consola, usand me
 
 Para ejecutar el proyecto es necesario contar con: 
 
--**Python 3.8+** instalado en el sistemma
+-**Python 3.8+** instalado en el sistema
 
 -Tener instaladas las dependencias indicadas en el bash
 
